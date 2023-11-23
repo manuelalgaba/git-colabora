@@ -6,7 +6,7 @@ public class Ejercicio1 {
 
 	public static void main(String[] args) {
 		// TODO Esbozo de método generado automáticamente
-		var sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Introduce una palabra: ");
         String p1 = sc.nextLine();
@@ -18,6 +18,7 @@ public class Ejercicio1 {
         sc.close();
 
 	}
+	//Este metodo llamado comparativa recibe como parametros de entrada dos Strings llamados p1 y p2, no devuelve nada y muestra por pantalla cual cadena es mayor, menor o igual.
 	public static void comparativa(String p1, String p2) {
 		int longitud1 = p1.length();
 		int longitud2 = p2.length();
